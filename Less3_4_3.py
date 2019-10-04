@@ -6,9 +6,7 @@
 sp = [23, 45, 2, 0, -8, 77, 4.6, 4, 9, 543]
 print(sp)
 while sp:
-    for i in sp:
-        if i == max(sp):
-            sp.remove(i)
-            print(sp)
+    sp. remove(min(sp))
+    print(sp)
 
 

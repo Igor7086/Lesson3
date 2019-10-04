@@ -2,5 +2,6 @@
 st = 'qwerty'
 i = 0
 while i <= len(st):
-    print(st[i:])
+    st1 = st[i:]
+    print(st1)
     i += 1

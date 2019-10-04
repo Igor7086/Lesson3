@@ -3,7 +3,7 @@
 пока он не останется пустым
 """
 sp = ['q', 'w', 'e', 'r', 't', 'y']
-print(sp)
 while sp:
     sp.pop(0)
-    print(sp)
+    for i in sp:
+        print(i, end=" ")
