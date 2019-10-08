@@ -1,3 +1,4 @@
+
 def triangle(a, b, c):
     if (a + b > c) and (b + c > a) and (a + c > b):
         return True
@@ -5,8 +6,12 @@ def triangle(a, b, c):
         return False
 
 
-print(triangle(int(input("Введите 1ю сторону: ")),
-               int(input("Введите 2ю сторону: ")),
-               int(input("Введите 3ю сторону: "))))
+# if __name__ == "__triangle__":
+#     print(triangle(5, 4, 6))
+
+
+
+
+
 
 

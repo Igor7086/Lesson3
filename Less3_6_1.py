@@ -4,7 +4,7 @@ def ent_num():
         try:
             number = float(number)
         except ValueError:
-            pass
+            print("Wrong enter")
         else:
             break
     return number
