@@ -4,6 +4,7 @@
 """
 sp = ['q', 'w', 'e', 'r', 't', 'y']
 while sp:
-    sp.pop(0)
+    sp = sp[1:]
     for i in sp:
         print(i, end=" ")
+

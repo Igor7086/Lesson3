@@ -1,8 +1,8 @@
 a1 = input('введите первое значение:')
 a2 = input('введите второе значение:')
 try:
-    print(int(a1) + int(a2))
-except:
+    print(float(a1) + float(a2))
+except ValueError:
     print(a1+a2)
 
 
